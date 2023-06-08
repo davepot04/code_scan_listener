@@ -1,0 +1,21 @@
+name: code_scan_listener
+description: Listen for any hardware barcode(or qrcode) scanner without any manufacturer SDK
+version: 0.2.2
+homepage: https://github.com/utamori/code_scan_listener
+topics: [barcode, qrcode, scanner, listener, HardwareKeyboard]
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  clock: ^1.1.1
+  flutter:
+    sdk: flutter
+  rxdart: ^0.27.7
+
+dev_dependencies:
+  checks: ^0.2.2
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
